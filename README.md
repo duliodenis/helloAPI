@@ -1,6 +1,8 @@
 # hello API
 A nodeJS, MongoDB API with express, body-parser, and mongoose to demonstrate a Hello World API development server.
 
+![](art/helloapi.png?raw=true)
+
 ### Contributing
 See [CONTRIBUTING](CONTRIBUTING.md).
 
