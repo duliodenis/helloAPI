@@ -27,11 +27,11 @@ var port = process.env.PORT || 3000;
 mongoose.connect('mongodb://localhost:27017/hello');
 
 // ----------------------------------------------------------
-// Set up API Routes
-var api = require('./routes/api');            // changed
+// Import API Routes
+var api = require('./routes/api');
 
 // Routes will all be prefixed with /api
-app.use('/', api);                             // changed
+app.use('/api', api);
 
 // Middleware to be used for all requests
 app.use(function(req, res, next) {

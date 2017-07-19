@@ -1,6 +1,12 @@
 # hello API
 A nodeJS, MongoDB API with express, body-parser, and mongoose to demonstrate a Hello World API development server.
 
+# Install Devendencies
+`npm install`: run this command in helloAPI/helloAPI
+
+# Running the API Locally
+`nodemon`: nodemon runs the server and watches for changes
+
 ![](art/helloapi.png?raw=true)
 
 ### Contributing

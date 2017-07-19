@@ -3,11 +3,6 @@ var router = express.Router();
 
 var Vehicle = require('../app/models/vehicle');
 
-// Establish a Test Route
-router.get('/', function(req, res) {
-  res.json({message: 'Welcome to our API!'});
-});
-
 // Establish a Vehicle Route
 router.route('/vehicles')
 
@@ -66,5 +61,10 @@ router.route('/vehicle/color/:color')
       res.json(vehicle);
     });
   });
+
+  // Establish a Test Route
+router.get('/', function(req, res) {
+  res.json({message: 'Welcome to our Hello API!'});
+});
 
 module.exports = router;
